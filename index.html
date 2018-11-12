@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>duhoot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="media.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="header" class="site-header">
+        <div class="container is-flex is-flex-y-centered">
+            <a href="" class="brand-logo">
+                <img src="./images/logo.png" alt="duhot agency">
+            </a>
+            <nav class="site-nav">
+                <ul>
+                    <li>
+                        <a href="">Reality</a>
+                    </li>
+                    <li>
+                        <a href="">Living</a>
+                    </li>
+                    <li>
+                        <a href="">EduCation</a>
+                    </li>
+                    <li>
+                        <a href="">Entertainment</a>
+                    </li>
+                    <li>
+                        <a href="">Mobility</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <div class="search-field">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class='login-box'>
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+                <div class="menu">
+                    <a href="#" class="menu-btn">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section centered">
+        <div class="custom-form">
+            <h1>What you are looking for?</h1>
+            <div class="half-fields">
+                <div class="select-field">
+                    <select name="country" id="country">
+                        <option value="dubai">Dubai</option>
+                        <option value="moscow">Moscow</option>
+                        <option value="france">France</option>
+                        <option value="argentina">Argentina</option>
+                    </select>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="select-field">
+                    <select name="education" id="education">
+                        <option value="education">Education</option>
+                    </select>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <input type="text" placeholder="Keyword, name, date ...">
+            <button type='button' class="button button-primary">Search</button>
+        </div>
+    </div>
+    <section>
+        <div class="filter-bar">
+            <div class="container is-flex is-flex-y-centered is-flex-space-between">
+                <ul class="text-filters is-flex">
+                    <li>
+                        <a href="">Recomended</a>
+                    </li>
+                    <li>
+                        <a href="">Latest</a>
+                    </li>
+                    <li>
+                        <a href="">Highlits</a>
+                    </li>
+                </ul>
+                <div class="location-filters is-flex is-flex-y-centered">
+                    <div class="select-field">
+                        <select name="country" id="country">
+                            <option value="dubai">Dubai</option>
+                            <option value="moscow">Moscow</option>
+                            <option value="france">France</option>
+                            <option value="argentina">Argentina</option>
+                        </select>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <a href="" class="map-filter">Hide map
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                </div>
+                <ul class="badge-filters is-flex is-flex-y-centered">
+                    <li>Filter:</li>
+                    <li>
+                        <a href="#" class="is-home">
+                            <img src="./images/home.svg" alt="filter by house">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="is-person">
+                            <img src="./images/user.svg" alt="filter by person">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="is-eductaion">
+                            <img src="./images/education.svg" alt="filter by education">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="is-music">
+                            <img src="./images/music.svg" alt="filter by music">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="is-bus">
+                            <img src="./images/bus.svg" alt="filter by transport">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cards is-flex is-four">
+                <div class="cards-item is-green">
+                    <div class="image-block" style="background-image: url('images/img1.jpg');">
+                        <div class="price-badge">
+                            <span>$ 2,990</span>
+                        </div>
+                        <div class="blur-effect" style="background-image: url('images/img1.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info has-text-centered">
+                        <span class="badge-icon">
+                            <img src="./images/home.svg" alt="filter by house">
+                        </span>
+                        <h5 class="card-title">2 bedroom house for rent in Dubai</h5>
+                        <h6 class="card-type" class="">VISION AGENCY</h6>
+                        <div class="stars-items">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="rating-number is-grey">(365)</span>
+                    </div>
+                </div>
+                <div class="cards-item is-orange">
+                    <div class="image-block" style="background-image: url('images/img2.jpg');">
+                        <div class="blur-effect" style="background-image: url('images/img2.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info has-text-centered">
+                        <span class="badge-icon">
+                            <img src="./images/music.svg" alt="filter by music">
+                        </span>
+                        <h5 class="card-title">Beach party festival 2014</h5>
+                        <h6 class="card-type">LONG BEACH</h6>
+                        <div class="stars-items">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-number is-grey">(1165)</span>
+                    </div>
+                </div>
+                <div class="cards-item is-purple">
+                    <div class="image-block" style="background-image: url('images/img1.jpg');">
+                        <div class="price-badge">
+                            <span>$ 1,490</span>
+                        </div>
+                        <div class="blur-effect" style="background-image: url('images/img1.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info has-text-centered">
+                        <span class="badge-icon">
+                            <img src="./images/bus.svg" alt="filter by transport">
+                        </span>
+                        <h5 class="card-title">Aliquam quis pulvinar purus</h5>
+                        <h6 class="card-type">BUS TRANS</h6>
+                        <div class="stars-items">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="rating-number is-grey">(365)</span>
+                    </div>
+                </div>
+                <div class="cards-item is-green">
+                    <div class="image-block" style="background-image: url('images/img3.jpg');">
+                        <div class="price-badge">
+                            <span>$ 5,990</span>
+                        </div>
+                        <div class="blur-effect" style="background-image: url('images/img3.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info has-text-centered">
+                        <span class="badge-icon">
+                            <img src="./images/home.svg" alt="filter by house">
+                        </span>
+                        <h5 class="card-title">4 bedroom house for rent in Dubai</h5>
+                        <h6 class="card-type">REALITY AGENCY</h6>
+                        <div class="stars-items">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="rating-number is-grey">(165)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cards is-flex is-two">
+                <div class="testimonial-card is-green">
+                    <div class="image-block" style="background-image: url('images/img4.jpg');">
+                        <div class="card-info is-flex is-flex-y-centered">
+                            <h6 class="card-title is-white">VISION AGENCY</h6>
+                            <div class="stars-items">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-number is-white">(165)</span>
+                        </div>
+                        <div class="blur-effect" style="background-image: url('images/img4.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info is-flex">
+                        <span class="badge-icon">
+                            <img src="./images/home.svg" alt="filter by house">
+                        </span>
+                        <span class="author-image" style="background-image: url('images/avatar1.jpg')">
+                        </span>
+                        <div class="author-text">
+                            <div class="stars-items">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4 class="testimonial-author">LUCY-P</h4>
+                            <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card is-orange">
+                    <div class="image-block" style="background-image: url('images/img5.jpg');">
+                        <div class="card-info is-flex is-flex-y-centered">
+                            <h6 class="card-title is-white">VISION AGENCY</h6>
+                            <div class="stars-items">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-number is-white">(165)</span>
+                        </div>
+                        <div class="blur-effect" style="background-image: url('images/img5.jpg');"></div>
+                        <div class="hover-block">
+                            <button class="button button-more">
+                                <i class="fas fa-search"></i>Show more</button>
+                            <div class="stars-items is-transparent">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-comments"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-info is-flex">
+                        <span class="badge-icon">
+                            <img src="./images/home.svg" alt="filter by house">
+                        </span>
+                        <span class="author-image" style="background-image: url('images/avatar2.jpg')">
+                        </span>
+                        <div class="author-text">
+                            <div class="stars-items">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4 class="testimonial-author">LUCY-P</h4>
+                            <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="calculator custom-form">
+        <div class="inner-block">
+            <h2 class="custom-title">Calculator</h2>
+            <div class="input-group">
+                <label for="squareMeter" class="input-label">Enter square meter</label>
+                <input id="squareMeter" type="number" name="squaremeter" value="10" required oninput="calculate()">
+            </div>
+            <ul class="radio-group is-flex is-flex-x-centered">
+                <li>
+                    <input id="modifier-1" type="radio" checked="checked" name="modifier" value="100" onclick="calculate()">
+                    <div class="check"></div>
+                    <label for="modifier-1">Modifier 1</label>
+                </li>
+                <li>
+                    <input id="modifier-2" type="radio" name="modifier" value="125" onclick="calculate()">
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                    <label for="modifier-2">Modifier 2</label>
+                </li>
+                <li>
+                    <input id="modifier-3" type="radio" name="modifier" value="150" onclick="calculate()">
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                    <label for="modifier-3">Modifier 3</label>
+                </li>
+            </ul>
+            <div class="input-group">
+                <label for="price" class="input-label">Price will be</label>
+                <input id="price" type="number" name="squaremeter" value="100000" readonly>
+            </div>
+        </div>
+        <div class="modal-buttons">
+            <h2 class="custom-title">Modal Examples</h2>
+            <!-- Trigger/Open The Modal -->
+            <button class="button button-primary" onclick="openModal(0)">Open Modal</button>
+            <button class="button button-primary" onclick="openModal(1)">Open Modal</button>
+            <button class="button button-primary" onclick="openModal(2)">Open Modal</button>
+            <button class="button button-primary" onclick="openModal(3)">Open Modal</button>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+        <!-- Modal content -->
+        <div id="modal-content" class="modal-content">
+            <span id="close">
+                <i class="far fa-times-circle"></i>
+            </span>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

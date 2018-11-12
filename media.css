@@ -1,0 +1,158 @@
+@media screen and (max-width: 980px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .site-header .container:before {
+    display: none;
+  }
+  .site-header .container {
+    height: 110px;
+    align-items: normal;
+    padding: 0;
+  }
+  .brand-logo {
+    padding: 10px 0 0 10px;
+  }
+  .site-nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    align-items: center;
+  }
+  .actions {
+    height: 55px;
+  }
+  .actions .login-box {
+    padding: 0 31px;
+    background-color: #e94e38;
+    text-transform: uppercase;
+  }
+  .filter-bar .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 0;
+  }
+  .filter-bar .container > * {
+    padding-top: 10px;
+  }
+  .search-form {
+    padding: 0 10px;
+  }
+  .text-filters a {
+    margin: 0 12px;
+  }
+  .cards.is-four {
+    flex-wrap: wrap;
+  }
+  .cards .cards-item,
+  .testimonial-card {
+    margin: 10px;
+  }
+  .cards.is-four .cards-item {
+    width: calc(50% - 20px);
+  }
+  .testimonial-card .card-info {
+    height: auto;
+    display: block;
+    text-align: left;
+  }
+  .testimonial-text {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .site-header .container {
+    flex-wrap: wrap;
+  }
+  .site-nav {
+    order: 2;
+  }
+}
+@media screen and (max-width: 640px) {
+  .badge-filters li:first-child {
+    display: none;
+  }
+  .badge-filters li {
+    margin: 0 5px;
+  }
+  .menu {
+    width: 74px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .actions .login-box span {
+    display: none;
+  }
+  .site-header .container {
+    height: auto;
+  }
+  .actions {
+    height: 60px;
+  }
+  .site-nav {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    transition: height 0.3s ease-in-out;
+    height: 0;
+    min-width: 320px;
+  }
+  .site-nav.is-active {
+    height: 135px;
+  }
+  .site-nav ul {
+    padding: 0;
+    display: block;
+  }
+  .site-nav ul li {
+    margin: 5px 12px;
+  }
+  .cards.is-two {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  .brand-logo {
+    width: 130px;
+  }
+  .actions {
+    height: 54px;
+  }
+  .actions .search-field,
+  .menu {
+    width: 54px;
+  }
+  .actions .login-box {
+    padding: 21px;
+  }
+  .search-form h1 {
+    font-size: 22px;
+  }
+  .search-form button {
+    padding: 15px 35px;
+    font-size: 16px;
+  }
+  .cards.is-four .cards-item {
+    width: calc(100% - 20px);
+  }
+  .radio-group {
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 10px;
+  }
+  .half-fields {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .half-fields .select-field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .custom-form input {
+    padding: 15px 0 13px 28px;
+  }
+}
